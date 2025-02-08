@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio de Repaso - jQuery</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.14.1/themes/smoothness/jquery-ui.css"
+    />
+  </head>
+
+  <body>
+    <h2>Ejercicio de Repaso - Animación de un Círculo</h2>
+
+    <div id="controls">
+      <label for="opacity-slider"
+        >Opacidad: <span id="opacity-value">1</span></label
+      ><br />
+      <div id="opacity-slider"></div>
+
+      <h3>Orden de desplazamiento</h3>
+      <ul id="positions">
+        <li data-pos="0">0 px</li>
+        <li data-pos="500">500 px</li>
+        <li data-pos="1000">1000 px</li>
+      </ul>
+      <div>
+        <div id="start">Iniciar</div>
+        <div id="stop">Parar</div>
+      </div>
+    </div>
+
+    <div id="container">
+      <div id="circle"></div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

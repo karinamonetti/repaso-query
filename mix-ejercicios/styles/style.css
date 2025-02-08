@@ -1,0 +1,13 @@
+.random-div {
+    width: 100px;
+    height: 100px;
+    background-color: #2dc1c1; 
+    border: 1px solid #313131;   
+    border-radius: 12px;       
+    cursor: pointer;        
+    transition: transform 0.2s;
+  }
+  
+  .random-div:hover {
+    transform: scale(1.1); 
+  }     
