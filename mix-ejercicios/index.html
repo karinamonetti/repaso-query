@@ -14,32 +14,80 @@
       rel="stylesheet"
       href="https://code.jquery.com/ui/1.14.1/themes/smoothness/jquery-ui.css"
     />
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
-
     <!-- Ejercicio 1 -->
     <h1>Ejercicio 1</h1>
     <button type="button" id="ej1">Ejercicio 1</button>
-    <ul id="lista">
-    </ul>
-    <br><br><br><br>
+    <ul id="lista"></ul>
+    <br /><br /><br /><br />
 
-    
     <!-- Ejercicio 2 -->
     <h1 id="h1-ej2">Ejercicio 2 (Este título puede cambiar)</h1>
-    <input type="text" id="input-texto" placeholder="Ingresa aquí un nuevo título">
-    <button type="button" id="ej2">Ejercicio 2</button>       
-    <br><br><br><br>
+    <input
+      type="text"
+      id="input-texto"
+      placeholder="Ingresa aquí un nuevo título"
+    />
+    <button type="button" id="ej2">Ejercicio 2</button>
+    <br /><br /><br /><br />
 
     <!-- Ejercicio 3 -->
     <h1>Ejercicio 3</h1>
-    <button type="button" id="ej3">Ejercicio 3</button> 
+    <button type="button" id="ej3">Ejercicio 3</button>
     <section id="contenedor-divs"></section>
+    <br /><br /><br /><br />
+
+    <!-- Ejercicio 4 -->
+    <h1>Ejercicio 4</h1>
+    <button type="button" id="ej4">Ejercicio 4</button>
+    <section id="contenedor-divs-4"></section>
+    <br /><br /><br /><br />
+
+    <!-- Ejercicio 5 -->
+    <h1>Ejercicio 5</h1>
+    <button type="button" id="ej5">Ejercicio 5</button>
+    <br /><br />
+    <table border="1" cellspacing="0" cellpadding="16" >
+
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Teléfono</th>
+          <th>Edad</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <tr>
+          <td>Ana Martínez</td>
+          <td>+34 612 345 678</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td>Carlos Gómez</td>
+          <td>+34 689 123 456</td>
+          <td>35</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
     
-    <br><br><br><br>
+    <strong>Nombre:</strong>
+    <input type="text" id="nombre" placeholder="Ingresa un nombre" />
+    <br><br>
+    
+    <strong>Teléfono:</strong>
+    <input type="number" id="telefono" placeholder="Ingresa un número de teléfono"/>
+    <br><br>
+    
+    <strong>Edad:</strong>
+    <input type="number" id="edad" placeholder="Ingresa una edad"/>
+    <br /><br />
+
+    <button id="adelante">Colocar delante</button>
+    <button id="atras">Colocar atras</button>
 
     <script src="scripts/script.js"></script>
-    
-  </body> 
+  </body>
 </html>
